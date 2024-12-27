@@ -1,0 +1,131 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(249 211 97);
+}
+h1 {
+    font-size: 4rem;
+    font-family: cursive;
+    color: #fc7f26;
+    font-weight: bolder;
+}
+h2 {
+    font-size: 2rem;
+    font-family: cursive;
+    color: #fc7f26;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.btn{
+    background-color: #fc7f26;
+    border: #fc7f26;
+}
+.btn:hover{
+    background-color: #faa365;
+    color: #000;
+}
+
+/* Navigation bar style */
+nav{
+    background-color: #ffc929;
+}
+.fixed-top{
+    position: sticky;
+}
+.navbar-brand img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-brand span{
+    font-size: 110%;
+    color: #000;
+    letter-spacing: 1px;
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+}
+.navbar-toggler{
+    border: transparent;
+}
+.navbar-toggler-close{
+    background-image: url("../images/close.png");
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.navbar-nav{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: solid #000;
+}
+@media screen and (min-width: 990px) {
+    .navbar-nav{
+        border-top: none;
+    }
+}
+.nav-link{
+    padding-left: 46%;
+    padding-right: 46%;
+}
+.nav-link:hover{
+    border-bottom: solid #000;
+    color: #fc7f26;
+}
+
+
+/* Hero section */
+.hero {
+    background-image: url('../images/snacks\ 4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 45rem;
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* About section */
+#about{
+    background-image: url("../images/AI\ gene/abt2.jpeg");
+    background-size: cover;
+    align-content: center;
+    height: 40rem;
+}
+.about-content{
+   border: solid #e6bd44;
+   border-radius: 10px;
+   padding: 1rem 2rem; 
+   margin: 2rem;
+   margin-top: 5rem;
+   background-color: rgb(253, 205, 142);
+}
+#about p{
+    font-size: 1.2rem;
+}
+
+/* Product Session */
+.card-img-top{
+    height: 20rem;
+}
+
+/* Feedback Section */
+#feedback{
+    background-color: #fff5d0;
+}
+.carousel-item img{
+    width: 16rem;
+    height: 16rem;
+}
+.carousel-caption{
+    position: static;
+    color: #000;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #fc7f26;
+}
